@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./responsive.css">
+</head>
+<body>
+    <div class="head">
+    <div class="heading">
+        <h1>Happy Weather !</h1>
+        <p>Stay updated with the weather as you stay updated with trends. &#9889;</p>
+    </div>
+</div>
+    <div class="main">
+        <div class="main-flex">
+            <div class="search-sec">
+                <h2>Enter City Name</h2>
+                    <input id="city_name" name="city-name" type="text" placeholder="E.g. London">
+                    <button class="search-btn btn" id="search">Search</button>
+                    <p>---------------------- OR --------------------</p>
+                    <button class="location-btn btn" id="locSearch">Use Current Location</button>   
+            </div>
+            <div class="result-sec">
+                <div class="forecast" id="curr_weather">
+                     <div class="forecast-content" >
+                        <h2 class="city">------(------)</h2>
+                        <p class="temp">Temperature: <span>----&deg;</span></p>
+                        <p class="wind">Wind:<span>---- M/s</span></p>
+                        <p class="humidity">Humidity:<span>nil%</span></p>
+                     </div>
+                     <div class="forecast-img">
+                        <img src="" alt="">
+                        <small>----</small>
+                     </div>
+                </div>
+                <div class="forecast-4">
+                    <h3>Next 4-Days Forecast</h3>
+                <div class="fourdays">
+                    <div class="card">
+                        <p>date</p>
+                        <small>day</small>
+                        <img src="" alt="">
+                        <p class="c-temp">Temperature: <span>----&deg;</span></p>
+                        <p class="c-wind">Wind:<span>---- M/s</span></p>
+                        <p class="c-humidity">Humidity:<span>nil %</span></p>
+                    </div>
+
+                    <div class="card">
+                        <p>date</p>
+                        <small>day</small>
+                        <img src="" alt="">
+                        <p class="c-temp">Temperature: <span>----&deg;</span></p>
+                        <p class="c-wind">Wind:<span>---- M/s</span></p>
+                        <p class="c-humidity">Humidity:<span>nil %</span></p>
+                    </div>
+
+                    <div class="card">
+                        <p>date</p>
+                        <small>day</small>
+                        <img src="" alt="">
+                        <p class="c-temp">Temperature: <span>----&deg;</span></p>
+                        <p class="c-wind">Wind:<span>---- M/s</span></p>
+                        <p class="c-humidity">Humidity:<span>nil %</span></p>
+                    </div>
+
+                    <div class="card">
+                        <p>date</p>
+                        <small>day</small>
+                        <img src="" alt="">
+                        <p class="c-temp">Temperature: <span>----&deg;</span></p>
+                        <p class="c-wind">Wind:<span>---- M/s</span></p>
+                        <p class="c-humidity">Humidity:<span>nil %</span></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+   <script type="text/javascript" src="./app.js"></script>
+</body>
+</html>

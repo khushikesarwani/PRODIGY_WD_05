@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@media only screen and (max-width:992px){
+    .fourdays{
+        grid-template-columns: repeat(2,minmax(180px,1fr));
+        grid-template-rows: 1fr 1fr;   
+    }
+}
+@media only screen and (max-width:768px){
+    .main-flex{
+       flex-direction: column;
+    }
+    .search-sec{
+        width:60%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
+        padding-bottom: 10%;
+    }
+    .forecast-4{
+        width:96%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
+    }
+    .result-sec{
+        width:96%;
+    }
+}
+@media only screen and (max-width:600px){
+    .fourdays{
+        grid-template-columns: repeat(1,minmax(120px,280px));
+        grid-template-rows: repeat(4,1fr);   
+    }
+}
